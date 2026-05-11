@@ -1,0 +1,77 @@
+p {
+    font-size: 30px;
+}
+
+/* .texti {
+    background-color: purple;
+    font-style: italic;
+}
+
+.textii {
+    background-color: blue;
+    font-style: oblique;
+
+}
+
+.textiii {
+    background-color: greenyellow;
+    font-style: normal;
+}
+
+.textiiii {
+    background-color: gray;
+}
+
+.automobile {
+    font-weight: 200;
+    font-display: initial;
+    background-color: brown;
+}
+
+.automobilee {
+    background-color: orange;
+    font-color: greenyellow;
+}
+.automobileee{
+    color: #222;
+    background-color: bisque; 
+    
+    تمرین اول
+} */
+
+
+
+
+/* #header,
+#content {
+    background-color: rgb(228, 65, 133);
+    font-size: large;
+}
+#content > a{
+    background-color: pink;
+}
+div p{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+text-decoration: dashed;
+text-decoration-color: rgb(71, 1, 1);
+ text-align: center;   
+ letter-spacing: 0cap;
+word-spacing: normal;
+
+تمرین فونت */
+
+.box{
+    width: 500px;
+    height: 50px;
+    background-color: palegoldenrod;
+}
+ .innerbox{
+    width: 70px;
+    height: 50%;
+    background-color: blue;
+ }
+ 

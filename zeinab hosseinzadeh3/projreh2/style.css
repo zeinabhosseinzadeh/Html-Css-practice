@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.shakeX {
+    background-color: pink;
+    text-align: center;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 200px;
+
+}
+
+.shake {
+    animation: shake;
+    animation-duration: 1s;
+}
+
+.shake:hover {
+    animation: shake infinite;
+    animation-duration: 1s;
+
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+
+    }
+
+    25% {
+        transform: translateX(-20px);
+
+    }
+
+    50% {
+        transform: translateX(20px)
+    }
+
+    75% {
+        transform: translateX(-20px)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+.heartbeat {
+    background-color: rgb(6, 247, 255);
+    text-align: center;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 200px;
+}
+
+.heartbeat1 {
+    animation: heartbeat 1s;
+}
+
+.heartbeat1:hover {
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1.5);
+
+
+    }
+
+    40% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(1.5);
+
+    }
+
+    80% {
+        transform: scale(1);
+
+    }
+}

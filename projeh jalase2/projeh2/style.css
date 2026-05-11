@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.welcome {
+    text-align: center;
+    padding: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 625px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #dd0000;
+    text-decoration: none;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    margin-right: 200px;
+    border: 10px, solid red
+}
+
+.content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.time {
+    margin-left: 400px;
+}
+
+.price {
+    margin-right: 400px;
+}

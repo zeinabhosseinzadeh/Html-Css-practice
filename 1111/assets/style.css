@@ -1,0 +1,51 @@
+#ptag {
+    background-color: brown;
+
+}
+
+.ptext {
+    background-color: aquamarine;
+    font-size: 10px;
+}
+
+h1.ptext {
+    background-color: blue;
+}
+
+.btn {
+    background-color: azure;
+
+}
+
+.btn-danger {
+    color: blueviolet;
+
+}
+
+.btn-success {
+    color: brown;
+}
+
+.btn-primary {
+    color: green;
+}
+
+menubar a {
+    color: aliceblue;
+}
+
+.search>a {
+    background-color: yellow;
+
+}
+
+div p {
+    color: purple;
+    font-size: 2rem;
+    font-weight: 200;
+    /* font-style: none; */
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0px 15px 1px red;
+
+
+}

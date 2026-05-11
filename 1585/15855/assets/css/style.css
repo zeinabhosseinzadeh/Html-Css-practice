@@ -1,0 +1,58 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+:root {
+    --my-primary-color: #c06804;
+    --my-secondary-color: #a1ff09;
+    --my-trans: all .5s;
+    --my-margin: 20px auto;
+    --my-shadow: 0 0 16px 3px rgba(0, 0, 0, );
+
+}
+
+.btn {
+    width: 100px;
+    height: 70px;
+    background-color: var(--my-primary-color);
+    margin: 40px auto;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 12px;
+    transition: var(--my-trans);
+    box-shadow: var(--my-shadow);
+
+}
+
+.btn:hover {
+    color: red;
+    width: 120px;
+    background-color: var(--my-secondary-color);
+} */
+table{
+    width: 80;
+    margin: 20px;
+    border-collapse: collapse;
+    font-size: 26px;
+}
+table tr{
+    border: 1px solid black;
+
+}
+table td , table th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+
+}
+table tbody tr:nth-child(odd){
+    background-color: blueviolet;
+
+}
+table thead tr{
+    background-color: red;
+}
